@@ -99,6 +99,13 @@
             settings:controller="com.android.settings.display.ColorModePreferenceController"
             settings:keywords="@string/keywords_color_mode"/>
     </PreferenceCategory>
+    
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="show_combined_status_bar_signal_icons"
+            android:title="@string/combined_status_bar_signal_icons_title"
+            android:summary="@string/combined_status_bar_signal_icons_summary"
+            settings:controller="com.android.settings.display.CombinedSignalIconsPreferenceController"
+            android:defaultValue="false" />
 
     <PreferenceCategory
         android:title="@string/category_name_display_controls">

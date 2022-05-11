@@ -33,4 +33,9 @@
     <string name="other_controls_title">其它控制</string>
     <string name="fullscreen_gestures_title">全屏手势</string>
     <string name="fullscreen_gestures_summary">隐藏导航栏与键盘空白</string>
+
+     <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">合并信号栏</string>
+    <string name="combined_status_bar_signal_icons_summary">合并信号栏节省空间，需要重启</string>
+</resources>
 </resources>
